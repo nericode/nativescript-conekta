@@ -20,7 +20,7 @@ exports.token = function() {
     "332",
     "11",
     "2020",
-    "PUBLIC_KEY") // Ignorar siempre al hacer commit
+    "PUBLIC_KEY") // Se obtiene desde la plataforma de Conekta
     .then(function (token) {
         console.log("Token: " + token);
     },

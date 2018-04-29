@@ -7,10 +7,13 @@ Conekta nativescript-conekta permite tokenizar (encriptar) los datos de la tarje
 Actualmente se encuentra en desarrollo el plugin, pero se subira respectivamente al marketplace de nativescript:
 
 ```javascript
-tns plugin add <nativescript-conketa>
+tns plugin add <nativescript-conekta>
 ```
+## Soporte 
 
-## Usage 
+Solamente soporta Android, pero se esta trabajando en el plugin para iOS.
+
+## Uso 
 
 El plugin es relativamente sencillo, simplemente agrega la referencia Conekta, crea un objeto y pasa los datos a tokenizar. 
 
@@ -38,6 +41,6 @@ function(e) {
 });
 ```
 
-## License
+## Licencia
 
-Apache License Version 2.0, January 2004
+Sin licencia
