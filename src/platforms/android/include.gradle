@@ -1,0 +1,16 @@
+/* Include.gradle configuration: http://docs.nativescript.org/plugins/plugins#includegradle-specification */
+
+android {
+
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+    // Describe plugin native Android dependencies like
+	// compile "groupName:pluginName:ver"
+    // EXAMPLE: compile "com.facebook.fresco:fresco:0.9.0+"
+	compile "io.conekta:conektasdk:2.0"
+}
