@@ -12,8 +12,9 @@ tns plugin add <nativescript-conketa>
 
 ## Usage 
 
-El plugin es relativamente sencillo, simplemente agrega la referencia Conketa, crea un objeto y pasa los datos a tokenizar. Es responsabilidad
-tuya validar la tarjeta.
+El plugin es relativamente sencillo, simplemente agrega la referencia Conekta, crea un objeto y pasa los datos a tokenizar. 
+
+NOTA: Es responsabilidad tuya validar la tarjeta.
 	
 ```javascript
 import { Conekta } from 'nativescript-conekta';
