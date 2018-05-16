@@ -29,5 +29,5 @@ export class HelloWorldModel extends Observable {
             console.log(e);
         });
 
-    };
+    }
 }

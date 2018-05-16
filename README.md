@@ -1,24 +1,23 @@
 # nativescript-conekta
 
-Conekta nativescript-conekta permite tokenizar (encriptar) los datos de la tarjeta de tu usuario final
+Conekta nativescript-conekta allows tokenize (encrypt) the data of the card of your final user
 
-## Instalación (próximamente)
+## Installation
 
-Actualmente se encuentra en desarrollo el plugin, pero se subira respectivamente al marketplace de nativescript:
 
 ```javascript
-tns plugin add <nativescript-conekta>
+tns plugin add nativescript-conekta
 ```
-## Soporte 
+## Support
 
-Solamente soporta Android, pero se esta trabajando en el plugin para iOS.
+It only supports Android, but it is working on the iOS plugin.
 
-## Uso 
+## Use
 
-El plugin es relativamente sencillo, simplemente agrega la referencia Conekta, crea un objeto y pasa los datos a tokenizar. 
+The plugin is relatively simple, simply add the reference Conekta, create an object and pass the data to tokenize.
 
-NOTA: Es responsabilidad tuya validar la tarjeta.
-	
+NOTE: It is your responsibility to validate the card.
+
 ```javascript
 import { Conekta } from 'nativescript-conekta';
 
@@ -26,21 +25,19 @@ import { Conekta } from 'nativescript-conekta';
 
 this.conekta = new Conekta();
 
-this.conekta.createToken(
-"Fulanito Pérez",
-"4242424242424242",
-"332",
-"11",
-"2020",
-"PUBLIC_KEY") // Se obtiene desde la plataforma de Conekta
-.then(function (token) {
-    console.log("Token: " + token);
+let options:ConektaOptions = {
+	name: "Fulanito Pérez",
+	numberCard: "4242424242424242",
+	cvc: "332",
+	expMonth: "11",
+	expYear: "2020",
+	publicKey: "PUBLIC_KEY" // Se obtiene desde la plataforma de Conekta
+}
+
+this.conekta.createToken(options).then(function (token) {
+		console.log("Token: " + token);
 },
 function(e) {
-    console.log(e);
+		console.log(e);
 });
 ```
-
-## Licencia
-
-Sin licencia
