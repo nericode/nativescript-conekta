@@ -1,7 +1,7 @@
 {
     "name": "nativescript-conekta",
-    "version": "1.0.0",
-    "description": "Your awesome NativeScript plugin.",
+    "version": "1.1.0",
+    "description": "Conekta tokenizer - NativeScript plugin.",
     "main": "conekta",
     "typings": "index.d.ts",
     "nativescript": {
@@ -30,19 +30,20 @@
     },
     "keywords": [
         "NativeScript",
+        "Conekta",
         "JavaScript",
         "Android",
         "iOS"
     ],
     "author": {
-        "name": "Your Name",
-        "email": "youremail@yourdomain.com"
+        "name": "Alan Neri",
+        "email": "alanneri10@gmail.com"
     },
     "bugs": {
-        "url": "https://github.com/nericode/nativescript-conekta/issues"
+        "url": "https://github.com/NeriCodec/nativescript-conekta/issues"
     },
     "license": "Apache-2.0",
-    "homepage": "https://github.com/nericode/nativescript-conekta",
+    "homepage": "https://github.com/NeriCodec/nativescript-conekta",
     "readmeFilename": "README.md",
     "devDependencies": {
         "prompt": "^1.0.0",
