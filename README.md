@@ -1,6 +1,8 @@
-# nativescript-conekta
+# nativescript-conekta [Deprecated]
 
 Conekta nativescript-conekta allows tokenize (encrypt) the data of the card of your final user
+
+Plese use: https://github.com/happones/nativescript-conekta
 
 ## Installation
 
